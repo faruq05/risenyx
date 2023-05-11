@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* font-family: 'Lora', serif;
+font-family: 'Poppins', sans-serif; */
+h1,h2,h3,h4,h5,h6,ul,li,a,p{
+    margin: 0;
+    padding: 0;
+}
+
+/* global */
+:root{
+    --cs-primary:#3C78F0;
+    --cs-text: #54595F;
+    --cs-black: #000;
+    --cs-wh:#fff;
+    --cs-des:#e2e2e4;
+}
+
+h1{
+    font-size:  60px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+h2{
+    font-size: 34px;
+    color: #262626;
+
+}
+
+p{
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+}
