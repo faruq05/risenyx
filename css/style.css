@@ -26,6 +26,7 @@ p {
     --cs-text: #858585;
     --cs-title: #151515;
     --cs-wh: #fff;
+    --cs-bg: #3c78f00d;
 }
 
 h1 {
@@ -76,6 +77,7 @@ a {
     padding: 10px 20px;
     position: fixed;
     width: 100%;
+    z-index: 100;
     background-color: var(--cs-subpr);
 }
 
@@ -178,27 +180,27 @@ a {
     padding-top: 20px;
 }
 
-.serv_block i {
+.cstm_icon {
 
-font-size: 25px;
+    font-size: 25px;
 
-color: var(--cs-wh);
+    color: var(--cs-wh);
 
-margin-bottom: 12px;
+    margin-bottom: 12px;
 
-border-radius: 5px;
+    border-radius: 5px;
 
-width: 50px;
+    width: 50px;
 
-height: 50px;
+    height: 50px;
 
-display: flex;
+    display: flex;
 
-background-color: var(--cs-primary);
+    background-color: var(--cs-primary);
 
-justify-content: center;
+    justify-content: center;
 
-align-items: center;
+    align-items: center;
 }
 
 .service_image img {
@@ -208,17 +210,236 @@ align-items: center;
 }
 
 /* features */
-.feature_title p{
+.features {
+    background-color: var(--cs-bg);
+}
+
+.titlep p {
     width: 50%;
     margin: auto;
 }
 
-.btn_ft{
+.btn_ft {
     background-color: var(--cs-subpr);
     color: var(--cs-wh);
 }
 
-.btn_ft2{
+.btn_ft2 {
     color: var(--cs-title);
     border-color: var(--cs-subpr);
+}
+
+.feature_content {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.feature_content i {
+    margin-left: auto;
+}
+
+.fc i {
+    margin: 0;
+    margin-right: auto;
+    margin-bottom: 12px;
+}
+
+/* screenshots */
+.ss_title {
+    text-align: center;
+}
+
+.frame {}
+
+.frame img {
+    position: absolute;
+    width: 18%;
+    z-index: 10;
+    top: -13px;
+    left: 48%;
+    transform: translateX(-50%);
+}
+
+.carousel {
+    position: relative;
+    margin-top: 40px;
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 75%;
+    border-radius: 23px;
+}
+
+.owl-nav {
+    display: none;
+}
+
+.owl-dots {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 48%;
+    transform: translateX(-50%);
+    bottom: -40px;
+}
+
+.owl-dots .owl-dot span {
+
+    display: block;
+
+    width: 12px;
+
+    height: 12px;
+
+    border-radius: 50px;
+
+    border: 1px solid #dcdcdc;
+
+    background: #dcdcdc;
+
+    margin-right: 7px;
+}
+
+.owl-dots .active span {
+
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+    border: 1px solid var(--cs-primary);
+    background: var(--cs-primary);
+
+}
+
+
+/* review starts */
+.review {
+    background-color: var(--cs-bg);
+}
+
+.review_box {
+    border-radius: 15px;
+    box-shadow: 0px 0px 11px 0px #00000026;
+    background-color: var(--cs-wh);
+}
+
+.client_bg img {
+    border-radius: 15px 0px 0px 15px !important;
+}
+
+.client_des {
+    padding: 20px;
+}
+
+.client_title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.client_title img {
+    border-radius: 100px;
+    margin-right: 20px;
+    width: 50px !important;
+}
+
+.client_title p {
+    font-size: 14px;
+    color: var(--cs-title);
+}
+
+.rev-carousel.owl-drag .owl-item {
+    padding: 10px;
+}
+
+/* pricing */
+.price_box {
+    background-color: var(--cs-bg);
+    border-radius: 10px;
+    box-shadow: 0px 0px 9px 1px #0000001c;
+    transition: .4s all ease-in-out, .4s all ease-in-out;
+}
+
+.pr_title {
+    background-color: #4c5aaf;
+    padding: 20px;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+.pr_title p {
+    /* background-color: var(--cs-primary);
+    width: 59px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+    color: var(--cs-wh);
+    /* border-radius: 2px; */
+}
+
+.pr_title h4 {
+    font-size: 20px;
+    padding: 12px 0px;
+    color: var(--cs-wh);
+}
+
+.pr_title h4 strong {
+    font-size: 40px;
+}
+
+.pr_title h3 {
+    color: var(--cs-wh);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.pr_des {
+    padding: 20px;
+}
+
+.pr_des li {
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.pr_des li i {
+    margin-right: 10px;
+}
+
+.plan_buy {
+    padding: 0;
+    padding: 10px 0px;
+}
+
+.check_icon {
+
+    color: #008000;
+}
+
+.x_mark{
+    color: #ff0000;
+}
+
+.startplan{
+    background-color: #3c2b60;
+    border-radius: 0;
+}
+
+.tag{
+    background-color: #4c5aaf;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.tag h3{
+    color: var(--cs-wh);
+    padding: 0;
+}
+
+.price_box:hover{
+    transform: scale(1.02);
 }
