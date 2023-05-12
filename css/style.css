@@ -443,3 +443,62 @@ a {
 .price_box:hover{
     transform: scale(1.02);
 }
+
+/* newsletter */
+.newsletter{
+    background-color: var(--cs-bg);
+}
+
+.news_image img{
+    box-shadow: none;
+}
+
+
+
+
+/* footer */
+.footer_des{
+    text-align: center;
+}
+
+.footer_des p{
+    padding: 20px 0px;
+}
+
+.newsletter_form{
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    width: 380px;
+    margin: auto;
+    padding: 30px 0px;
+}
+
+.social li{
+    list-style: none;
+}
+
+.social li a{}
+
+.social li a i{
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: var(--cs-subpr);
+    color: var(--cs-wh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+}
+
+.cc p{
+    width: 100%;
+    margin: 0;
+    padding-bottom: 0;
+}
