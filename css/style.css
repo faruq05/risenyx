@@ -21,12 +21,12 @@ p {
 
 /* global */
 :root {
-    --cs-primary: #3C78F0;
-    --cs-subpr: #662AE2;
+    --cs-primary: #8768fb;
+    --cs-subpr: #a995fc;
     --cs-text: #858585;
-    --cs-title: #151515;
+    --cs-title: #281f4b;
     --cs-wh: #fff;
-    --cs-bg: #3c78f00d;
+    --cs-bg: #dad1fe;
 }
 
 h1 {
@@ -78,7 +78,7 @@ a {
     position: fixed;
     width: 100%;
     z-index: 100;
-    background-color: var(--cs-subpr);
+    background-color: var(--cs-primary);
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -90,7 +90,7 @@ a {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: var(--cs-text);
+    color: var(--cs-title);
 }
 
 .btn_custom {
@@ -113,7 +113,7 @@ a {
 
 /* hero */
 .hero {
-    background-color: var(--cs-subpr);
+    background-color: var(--cs-primary);
 }
 
 .hero .row {
@@ -146,7 +146,7 @@ a {
 }
 
 .btn_hv:hover {
-    margin-top: -10px;
+   
 }
 
 .btn_details {
@@ -165,12 +165,75 @@ a {
     box-shadow: 0px 0px 6px 0px #00000036;
 }
 
-.btn_hv:hover {
-    margin-top: -10px;
-}
-
 .hero_image {
     text-align: right;
+}
+
+.login_form {
+    padding: 50px;
+    background-color: var(--cs-title);
+    border-radius: 10px;
+    width: 90%;
+    margin-left: auto;
+}
+
+.login_form form {}
+
+.login_form form input {
+    padding: 0;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+}
+
+.login_form form input::placeholder {
+    font-size: 14px;
+    color: var(--cs-text);
+}
+
+.login_form form input[type='submit'] {
+    width: 100%;
+    background-color: var(--cs-bg);
+    border: transparent;
+    border-radius: 5px;
+    color: var(--cs-title);
+    font-weight: 700;
+    font-size: 16px;
+    transition: .3s all ease-in-out, .3s all ease-in-out;
+}
+
+.login_form form input[type='submit']:hover {
+    background-color: var(--cs-primary);
+    box-shadow: 0px 0px 10px 3px #5b1fb480;
+    color: var(--cs-wh) !important;
+}
+
+.login_form form .form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: none;
+}
+
+.btn_signup {
+    background-color: var(--cs-primary);
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 5px;
+    color: var(--cs-wh);
+    transition: .3s all ease-in-out, .3s all ease-in-out;
+}
+
+.btn_signup:hover {
+    background-color: var(--cs-bg);
+    box-shadow: 0px 0px 10px 3px #5b1fb480;
+}
+
+.log_form_button a p {
+    color: var(--cs-wh);
+    margin-top: 10px;
 }
 
 /* services */
@@ -365,7 +428,7 @@ a {
     background-color: #4c5aaf;
     padding: 20px;
     border-radius: 10px 10px 0px 0px;
-    
+
 }
 
 .pr_title p {
@@ -419,37 +482,37 @@ a {
     color: #008000;
 }
 
-.x_mark{
+.x_mark {
     color: #ff0000;
 }
 
-.startplan{
+.startplan {
     background-color: #3c2b60;
     border-radius: 0;
 }
 
-.tag{
+.tag {
     background-color: #4c5aaf;
     padding: 8px;
     text-align: center;
     border-radius: 10px 10px 0px 0px;
 }
 
-.tag h3{
+.tag h3 {
     color: var(--cs-wh);
     padding: 0;
 }
 
-.price_box:hover{
+.price_box:hover {
     transform: scale(1.02);
 }
 
 /* newsletter */
-.newsletter{
+.newsletter {
     background-color: var(--cs-bg);
 }
 
-.news_image img{
+.news_image img {
     box-shadow: none;
 }
 
@@ -457,15 +520,15 @@ a {
 
 
 /* footer */
-.footer_des{
+.footer_des {
     text-align: center;
 }
 
-.footer_des p{
+.footer_des p {
     padding: 20px 0px;
 }
 
-.newsletter_form{
+.newsletter_form {
     display: flex;
     width: 50%;
     margin: auto;
@@ -479,13 +542,13 @@ a {
     padding: 30px 0px;
 }
 
-.social li{
+.social li {
     list-style: none;
 }
 
-.social li a{}
+.social li a {}
 
-.social li a i{
+.social li a i {
     font-size: 20px;
     width: 40px;
     height: 40px;
@@ -497,8 +560,34 @@ a {
     border-radius: 100px;
 }
 
-.cc p{
+.cc p {
     width: 100%;
     margin: 0;
     padding-bottom: 0;
+}
+
+
+/* login page */
+.login_pg{
+    background-color: var(--cs-subpr);
+}
+
+.login_pg .row{
+    min-height: 100vh;
+}
+
+.logo{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.loginpg_login{
+    width: 80%;
+    margin: auto;
+}
+
+.loginpg_login p{
+    text-align: center;
+    color: var(--cs-wh);
+    margin-bottom: 10px;
 }

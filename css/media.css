@@ -1,0 +1,182 @@
+@media(max-width:991px) {
+    .btn_download {
+        margin-bottom: 15px;
+    }
+
+    .login_form {
+        width: 100%;
+        padding: 40px 20px;
+    }
+
+    .serbox {
+        display: block;
+    }
+
+    .serboxcol {
+        width: 100%;
+    }
+
+    .serimg {
+        text-align: center !important;
+        width: 80%;
+        margin: auto;
+    }
+
+    .service_image {
+        text-align: center !important;
+        margin: 30px 0px;
+    }
+
+    .btn_ft {
+        margin-bottom: 0;
+    }
+
+    .frame img {
+        width: 31%;
+        left: 47%;
+    }
+
+    .client_bg img{
+        width: 100%!important;
+    }
+
+}
+
+@media(max-width:767px) {
+    h1 {
+        font-size: 38px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .c-60 {
+        padding: 30px 15px;
+    }
+
+    .header {
+        padding: 10px;
+    }
+
+    .nav-item {
+        text-align: center;
+    }
+
+    .navbar-brand img {
+        width: 160px;
+    }
+
+    .hero {
+        padding-top: 100px;
+    }
+
+    .hero_content p {
+
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .hero_button {
+        padding: 30px 0px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .btn_download {
+        padding: 15px;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .btn_details {
+        padding: 15px;
+    }
+
+    .login_form {
+        padding: 50px 30px;
+        width: 100%;
+    }
+
+    .serbox {
+        display: flex;
+    }
+
+    .serv_block {
+
+        text-align: center;
+    }
+
+
+    .cstm_icon {
+        margin: 10px auto;
+    }
+
+    .service_image {
+        text-align: center !important;
+        margin-top: 20px;
+    }
+
+    .titlep p {
+        width: 100%;
+    }
+
+    .feature_content {
+        text-align: center !important;
+    }
+
+    .fc i {
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .owl-carousel .owl-item img {
+        margin: auto;
+    }
+
+    .frame img {
+        width: 91%;
+        left: 51%;
+    }
+
+    .carousel {
+        position: relative;
+        margin: 30px 0px;
+    }
+
+    .owl-dots {
+        left: 50%;
+    }
+
+    .review {
+        padding: 50px 15px !important;
+    }
+
+    .client_bg img {
+        border-radius: 15px 15px 0px 0px !important;
+    }
+
+    .client_title {
+        display: block;
+    }
+
+    .client_rev {
+        text-align: center;
+    }
+
+    .newsletter_form {
+        width: 100%;
+    }
+
+    .social {
+        width: 100%;
+    }
+}

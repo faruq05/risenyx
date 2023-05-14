@@ -66,7 +66,7 @@
                         </ul>
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link btn btn_custom" href="#">Log In</a>
+                                <a class="nav-link btn btn_custom" href="loginpg.html">Log In</a>
                             </li>
                         </ul>
                     </div>
@@ -90,13 +90,25 @@
                             imagine do in. Went me rank at last loud shot an draw.</p>
                         <div class="hero_button">
                             <a href="#" class="btn btn_download btn_hv">Download App</a>
-                            <a href="#" class="btn btn_details btn_hv">More Details</a>
+                            <a href="#services" class="btn btn_details btn_hv">More Details</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="hero_image">
-                        <img src="images/hero-mock.png" class="img-fluid" alt="hero_image">
+                    <div class="hero_image login_form" id="login">
+                        <!-- <img src="images/hero-mock.png" class="img-fluid" alt="hero_image"> -->
+                        <form action="">
+                            <input type="email" name="email" id="email" placeholder="EMail" class="form-control">
+                            <input type="password" name="password" id="password" placeholder="Password"
+                                class="form-control">
+                            <div class="log_form_button text-center">
+                                <input type="submit" value="Log In"> <br>
+                                <a href="signup_pg.html" class="btn btn_signup">Sign Up</a>
+                                <a href="recover_pass.html">
+                                    <p>I forgot the password</p>
+                                </a>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -107,8 +119,8 @@
     <!-- services starts -->
     <div class="services c-60" id="services">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6">
+            <div class="row align-items-center serbox">
+                <div class="col-md-6 serboxcol">
                     <div class="service_content">
                         <h2>App Integration</h2>
                         <p>Diverted as strictly exertion addition no disposal by stanhill. This call wife do so sigh no
@@ -132,20 +144,20 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 order-md-1 order-2 serimg">
                     <div class="service_image text-end">
                         <img src="images/v1.png" class="img-fluid" alt="app_ui">
                     </div>
                 </div>
             </div>
 
-            <div class="row align-items-center mt-5">
-                <div class="col-md-6">
+            <div class="row align-items-center mt-5 serbox">
+                <div class="col-md-6 order-md-2 order-1 serimg">
                     <div class="service_image text-left">
                         <img src="images/v2.png" class="img-fluid" alt="app_ui">
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 serboxcol">
                     <div class="service_content">
                         <h2>App Customization</h2>
                         <p>Diverted as strictly exertion addition no disposal by stanhill. This call wife do so sigh no
@@ -185,7 +197,7 @@
                             fact, the only type of company allowed by Companies.</p>
                         <div class="hero_button">
                             <a href="#" class="btn btn_download btn_ft">Download App</a>
-                            <a href="#" class="btn btn_details btn_ft2">Log In</a>
+                            <a href="loginpg.html" class="btn btn_details btn_ft2">Log In</a>
                         </div>
                     </div>
                 </div>
@@ -531,7 +543,7 @@
                         </form> -->
                         <div class="hero_button">
                             <a href="#" class="btn btn_download btn_ft">Download App</a>
-                            <a href="#" class="btn btn_details btn_ft2">Log In</a>
+                            <a href="loginpg.html" class="btn btn_details btn_ft2">Log In</a>
                         </div>
                     </div>
                 </div>
@@ -625,31 +637,29 @@
                     smartSpeed: 1000,
                     nav: true,
                     dotsEach: true,
-                    // responsive: {
-                    //     0: {
-                    //         items: 2,
-                    //     },
-                    //     425: {
-                    //         items: 2,
-                    //     },
-                    //     767: {
-                    //         items: 3,
-                    //     },
-                    //     768: {
-                    //         items: 3,
-                    //     },
-                    //     991: {
-                    //         items: 5,
-                    //     },
-                    // }
+                    responsive: {
+                        0: {
+                            items: 1,
+                        },
+                        425: {
+                            items: 2,
+                        },
+                        767: {
+                            items: 3,
+                        },
+                        768: {
+                            items: 3,
+                        },
+                        991: {
+                            items: 5,
+                        },
+                    }
                 }
             );
 
 
         });
 
-        // wow js
-        new WOW().init();
 
     </script>
 </body>
