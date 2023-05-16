@@ -78,7 +78,22 @@ a {
     position: fixed;
     width: 100%;
     z-index: 100;
-    background-color: var(--cs-primary);
+    background-color: #7935ff;
+}
+
+.navbar-icon i{
+    color: var(--cs-bg);
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0px 0rem;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.55);
+    border-color: #dad1fe8a;
 }
 
 .navbar-light .navbar-nav .nav-link {

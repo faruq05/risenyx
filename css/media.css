@@ -179,4 +179,8 @@
     .social {
         width: 100%;
     }
+
+    .newsletter_form .btn_download {
+        margin: 0;
+    }
 }
