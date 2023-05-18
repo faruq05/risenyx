@@ -68,7 +68,7 @@ a {
 }
 
 .c-60 {
-    padding: 60px 0px;
+    padding: 80px 0px;
 }
 
 /* header */
@@ -79,6 +79,7 @@ a {
     width: 100%;
     z-index: 100;
     background-color: #7935ff;
+    transition: .3s all ease-in-out;
 }
 
 .navbar-icon i{
