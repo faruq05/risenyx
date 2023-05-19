@@ -7,7 +7,7 @@ $(function(){
           return;
 if ((st > lastScrollTop) && (lastScrollTop>0)) {
        // downscroll code
-      $(".header").css("top","-80px");
+      $(".header").css("top","-85px");
   
    } else {
       // upscroll code
