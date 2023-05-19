@@ -78,7 +78,7 @@ a {
     position: fixed;
     width: 100%;
     z-index: 100;
-    background-color: #fff;
+    background-color: var(--cs-wh);
     transition: .3s all ease-in-out;
 }
 
