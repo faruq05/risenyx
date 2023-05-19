@@ -83,7 +83,7 @@ a {
 }
 
 .navbar-icon i{
-    color: var(--cs-bg);
+    color: var(--cs-primary);
 }
 
 .navbar-toggler:focus {
@@ -94,7 +94,7 @@ a {
 
 .navbar-light .navbar-toggler {
     color: rgba(0,0,0,.55);
-    border-color: #dad1fe8a;
+    border-color: #dad1fec2;
 }
 
 .navbar-light .navbar-nav .nav-link {
