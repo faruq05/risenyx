@@ -82,9 +82,18 @@ a {
     transition: .3s all ease-in-out;
 }
 
+/* .header .container{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+} */
+
 .navbar-icon i{
     color: var(--cs-primary);
 }
+
+
 
 .navbar-toggler:focus {
     text-decoration: none;
